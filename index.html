@@ -7,209 +7,411 @@
 <meta name="description" content="Ying Guan — NZ-registered Early Childhood Education lecturer and PhD candidate, University of Canterbury. Portfolio for academic teaching positions.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="container header-inner">
-    <span class="site-title">YING GUAN <span class="site-title-cn">关莹</span></span>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#cv">CV</a>
-      <a href="#contact">Contact</a>
+    <span class="site-title"><span class="site-logo">YG</span>YING GUAN <span class="site-title-cn">关莹</span></span>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="siteNav">
+      <a href="#home"><span class="lang-en">Home</span><span class="lang-zh">首页</span></a>
+      <a href="#about"><span class="lang-en">About</span><span class="lang-zh">关于我</span></a>
+      <a href="#philosophy"><span class="lang-en">Philosophy</span><span class="lang-zh">教学理念</span></a>
+      <a href="#experience"><span class="lang-en">Experience</span><span class="lang-zh">工作经历</span></a>
+      <a href="#portfolio"><span class="lang-en">Portfolio</span><span class="lang-zh">作品集</span></a>
+      <a href="#cv"><span class="lang-en">CV</span><span class="lang-zh">简历</span></a>
+      <a href="#hobbies"><span class="lang-en">Hobbies</span><span class="lang-zh">爱好</span></a>
+      <a href="#community"><span class="lang-en">Community</span><span class="lang-zh">社区贡献</span></a>
+      <a href="#contact"><span class="lang-en">Contact</span><span class="lang-zh">联系方式</span></a>
+      <button class="lang-toggle" id="langToggle" type="button">中文</button>
     </nav>
   </div>
 </header>
 
+<nav class="side-nav" aria-label="Section navigation">
+  <a href="#home"><span class="side-dot"></span><span class="side-label"><span class="lang-en">Home</span><span class="lang-zh">首页</span></span></a>
+  <a href="#about"><span class="side-dot"></span><span class="side-label"><span class="lang-en">About</span><span class="lang-zh">关于我</span></span></a>
+  <a href="#philosophy"><span class="side-dot"></span><span class="side-label"><span class="lang-en">Philosophy</span><span class="lang-zh">教学理念</span></span></a>
+  <a href="#experience"><span class="side-dot"></span><span class="side-label"><span class="lang-en">Experience</span><span class="lang-zh">工作经历</span></span></a>
+  <a href="#portfolio"><span class="side-dot"></span><span class="side-label"><span class="lang-en">Portfolio</span><span class="lang-zh">作品集</span></span></a>
+  <a href="#cv"><span class="side-dot"></span><span class="side-label"><span class="lang-en">CV</span><span class="lang-zh">简历</span></span></a>
+  <a href="#hobbies"><span class="side-dot"></span><span class="side-label"><span class="lang-en">Hobbies</span><span class="lang-zh">爱好</span></span></a>
+  <a href="#community"><span class="side-dot"></span><span class="side-label"><span class="lang-en">Community</span><span class="lang-zh">社区贡献</span></span></a>
+  <a href="#contact"><span class="side-dot"></span><span class="side-label"><span class="lang-en">Contact</span><span class="lang-zh">联系方式</span></span></a>
+</nav>
+
 <section id="home" class="hero">
   <div class="container">
-    <p class="eyebrow">Early Childhood Education · Aotearoa New Zealand</p>
+    <img class="hero-photo" src="assets/img/ying-guan-photo.jpg" alt="Portrait of Ying Guan">
+    <p class="identity-badge">
+      <span class="lang-en">🇨🇳 Chinese · 🇳🇿 NZ Permanent Resident</span>
+      <span class="lang-zh">🇨🇳 中国籍 · 🇳🇿 新西兰永久居民</span>
+    </p>
+    <p class="eyebrow">
+      <span class="lang-en">Early Childhood Education · Aotearoa New Zealand</span>
+      <span class="lang-zh">幼儿教育 · 新西兰</span>
+    </p>
     <h1>Ying Guan</h1>
-    <p class="affiliation">NZ-Registered ECE Teacher &amp; Initial Teacher Education Lecturer<br>
-    PhD Candidate, Faculty of Education — The University of Canterbury</p>
-    <p class="tagline">Twenty years of teaching across New Zealand, China and the United Kingdom —
-    now bridging bilingual family literacy research and tertiary early childhood teaching practice.</p>
+    <p class="affiliation">
+      <span class="lang-en lang-block">NZ-Registered ECE Teacher &amp; Initial Teacher Education Lecturer<br>
+      PhD Candidate, Faculty of Education — The University of Canterbury</span>
+      <span class="lang-zh lang-block">新西兰注册幼儿教师 &amp; 教师教育讲师<br>
+      坎特伯雷大学教育学院 博士在读</span>
+    </p>
+    <p class="tagline">
+      <span class="lang-en">Twenty years of teaching across New Zealand, China and the United Kingdom —
+      now bridging bilingual family literacy research and tertiary early childhood teaching practice.</span>
+      <span class="lang-zh">二十年教学经历，足迹遍及新西兰、中国与英国——现致力于将双语家庭读写研究
+      与高等院校幼儿教育教学实践相结合。</span>
+    </p>
     <div class="hero-actions">
-      <a class="btn btn-primary" href="#portfolio">View Portfolio</a>
-      <a class="btn btn-ghost" href="#cv">View CV</a>
+      <a class="btn btn-primary" href="#portfolio"><span class="lang-en">View Portfolio</span><span class="lang-zh">查看作品集</span></a>
+      <a class="btn btn-ghost" href="#cv"><span class="lang-en">View CV</span><span class="lang-zh">查看简历</span></a>
     </div>
   </div>
 </section>
 
 <section id="about" class="container section">
-  <h2><span class="num">01</span> About</h2>
-  <p>
-    Registered early childhood teacher and tertiary Initial Teacher Education academic with over
-    twenty years of teaching experience across New Zealand, China, and the United Kingdom. I hold a
-    Master of Teaching Early Childhood Education with Distinction and a current Full Practising Certificate with
-    the Teaching Council of Aotearoa New Zealand (Registration No. 412284).
+  <h2><span class="num">01</span> <span class="lang-en">About</span><span class="lang-zh">关于我</span></h2>
+  <span class="lang-en lang-block">
+    <p>
+      Registered early childhood teacher and tertiary Initial Teacher Education academic with over
+      twenty years of teaching experience across New Zealand, China, and the United Kingdom. I hold a
+      Master of Teaching Early Childhood Education with Distinction and a current Full Practising Certificate with
+      the Teaching Council of Aotearoa New Zealand (Registration No. 412284).
+    </p>
+    <p>
+      My teaching has spanned tertiary Initial Teacher Education, ECE centre-based practice, and
+      secondary-level English and literacy instruction. Alongside this, I am a part-time PhD candidate in
+      Education at the University of Canterbury, researching digitally mediated bilingual literacy
+      practices in Chinese–New Zealand family homes — work that informs how I support multilingual and
+      culturally diverse learners in tertiary and centre-based settings.
+    </p>
+    <p class="hint">Based in Auckland; open to long-term education roles, including in Christchurch / Canterbury.</p>
+  </span>
+  <span class="lang-zh lang-block">
+    <p>
+      注册幼儿教师，高等院校教师教育学者，拥有二十余年跨新西兰、中国与英国的教学经验。持有优异等级的
+      幼儿教育硕士学位（Master of Teaching Early Childhood Education, Distinction），并持有新西兰教师
+      注册委员会（Teaching Council of Aotearoa New Zealand）颁发的现行执业证书（注册号 412284）。
+    </p>
+    <p>
+      我的教学经历涵盖高等院校教师教育、幼儿园一线教学，以及中学英语与读写教学。与此同时，我是坎特伯雷
+      大学教育学院的兼读制博士生，研究方向为中新家庭中数字媒介支持下的双语读写实践——这项研究也持续
+      影响着我在高等院校与幼儿园场景中支持多语言、多元文化学习者的方式。
+    </p>
+    <p class="hint">现居奥克兰；愿意考虑包括基督城/坎特伯雷地区在内的长期教育类职位。</p>
+  </span>
+</section>
+
+<section id="philosophy" class="container section">
+  <h2><span class="num">02</span> <span class="lang-en">Teaching Philosophy</span><span class="lang-zh">教学理念</span></h2>
+
+  <p class="philosophy-motto">
+    <span class="lang-en lang-block">Every learner belongs.<br>Every voice matters.<br>Every step counts.</span>
+    <span class="lang-zh lang-block">每一个学习者都有归属。<br>每一种声音都被听见。<br>每一步成长都算数。</span>
   </p>
-  <p>
-    My teaching has spanned tertiary Initial Teacher Education, ECE centre-based practice, and
-    secondary-level English and literacy instruction. Alongside this, I am a part-time PhD candidate in
-    Education at the University of Canterbury, researching digitally mediated bilingual literacy
-    practices in Chinese–New Zealand family homes — work that informs how I support multilingual and
-    culturally diverse learners in tertiary and centre-based settings.
-  </p>
-  <p class="hint">Based in Auckland; open to long-term education roles, including in Christchurch / Canterbury.</p>
+
+  <div class="portfolio-grid">
+    <article class="p-card">
+      <span class="p-tag"><span class="lang-en">🌱 Belonging</span><span class="lang-zh">🌱 归属感</span></span>
+      <h3><span class="lang-en">Belonging</span><span class="lang-zh">归属感</span></h3>
+      <span class="lang-en lang-block"><p>Every learner brings a place, a language and a story. I build inclusive, Te Whāriki- and
+      Te Tiriti-informed environments where children, families and adult learners feel they belong
+      before they're asked to achieve.</p></span>
+      <span class="lang-zh lang-block"><p>每一位学习者都带着自己的成长背景、语言与故事而来。我致力于建立包容、体现 Te Whāriki
+      与 Te Tiriti 精神的学习环境，让儿童、家庭与成人学习者首先感受到归属，然后才被要求"达成"。</p></span>
+    </article>
+
+    <article class="p-card">
+      <span class="p-tag"><span class="lang-en">🗣️ Voice</span><span class="lang-zh">🗣️ 声音</span></span>
+      <h3><span class="lang-en">Voice</span><span class="lang-zh">声音</span></h3>
+      <span class="lang-en lang-block"><p>Twenty years across New Zealand, China and the United Kingdom — and research into bilingual
+      family literacy — have shown me that multilingual learners teach us as much as we teach them.
+      I make space for every language and every voice.</p></span>
+      <span class="lang-zh lang-block"><p>二十年辗转新西兰、中国与英国的经历，以及对双语家庭读写的研究，让我深刻体会到：多语言学习者
+      教会我们的，并不比我们教给他们的少。我努力为每一种语言、每一种声音留出空间。</p></span>
+    </article>
+
+    <article class="p-card">
+      <span class="p-tag"><span class="lang-en">📈 Growth</span><span class="lang-zh">📈 成长</span></span>
+      <h3><span class="lang-en">Growth</span><span class="lang-zh">成长</span></h3>
+      <span class="lang-en lang-block"><p>Feedback should move learners forward, not just judge them. I give clear, criteria-based,
+      constructive feedback — and hold my own practice to the same standard: reflective, evidence-informed,
+      always improving.</p></span>
+      <span class="lang-zh lang-block"><p>反馈应该推动学习者向前，而不只是评判他们。我提供清晰、基于评分标准、具建设性的反馈——也用
+      同样的标准要求自己：保持反思、以证据为依据、持续精进。</p></span>
+    </article>
+  </div>
 </section>
 
 <section id="experience" class="container section">
-  <h2><span class="num">02</span> Experience</h2>
+  <h2><span class="num">03</span> <span class="lang-en">Experience</span><span class="lang-zh">工作经历</span></h2>
 
   <div class="timeline">
     <div class="t-item">
-      <div class="t-meta">2026 – Present</div>
+      <div class="t-meta">2026 – <span class="lang-en">Present</span><span class="lang-zh">至今</span></div>
       <div class="t-body">
-        <h3>Assessment Marker — ECE and Education Courses</h3>
-        <p class="p-meta">New Zealand Tertiary College, Auckland</p>
-        <p>Marking across seven ECE and education-related courses, applying assessment criteria and
+        <h3><a href="experience/assessment-marker.html"><span class="lang-en">Assessment Marker — ECE and Education Courses</span><span class="lang-zh">评估阅卷官 — 幼儿教育及教育类课程</span></a></h3>
+        <p class="p-meta"><span class="lang-en">New Zealand Tertiary College, Auckland</span><span class="lang-zh">新西兰高等教育学院，奥克兰</span></p>
+        <span class="lang-en lang-block"><p>Marking across seven ECE and education-related courses, applying assessment criteria and
         course learning outcomes consistently, with constructive criteria-based feedback for learner
-        progression.</p>
+        progression.</p></span>
+        <span class="lang-zh lang-block"><p>负责七门幼儿教育及教育相关课程的评估阅卷工作，严格依据评分标准与课程学习目标进行评判，
+        并提供具建设性的反馈以支持学习者进步。</p></span>
+        <a class="btn-details" href="experience/assessment-marker.html"><span class="lang-en">Press me for details &rarr;</span><span class="lang-zh">点击查看详情 &rarr;</span></a>
       </div>
     </div>
 
     <div class="t-item">
       <div class="t-meta">2025 – 2026</div>
       <div class="t-body">
-        <h3>Lecturer &amp; Visiting Lecturer — Initial Teacher Education</h3>
-        <p class="p-meta">New Zealand Tertiary College, Auckland</p>
-        <p>Taught across five Initial Teacher Education courses (undergraduate and postgraduate),
+        <h3><a href="experience/lecturer-ite.html"><span class="lang-en">Lecturer &amp; Visiting Lecturer — Initial Teacher Education</span><span class="lang-zh">讲师 &amp; 客座讲师 — 教师教育专业</span></a></h3>
+        <p class="p-meta"><span class="lang-en">New Zealand Tertiary College, Auckland</span><span class="lang-zh">新西兰高等教育学院，奥克兰</span></p>
+        <span class="lang-en lang-block"><p>Taught across five Initial Teacher Education courses (undergraduate and postgraduate),
         supporting adult and distance learners through course delivery, assessment feedback,
-        one-to-one academic support, and practicum-related teaching practice guidance.</p>
+        one-to-one academic support, and practicum-related teaching practice guidance.</p></span>
+        <span class="lang-zh lang-block"><p>教授五门教师教育本科及研究生课程，通过课程讲授、评估反馈、一对一学术支持及教学实习
+        指导，为成人及远程学习者提供全面支持。</p></span>
+        <a class="btn-details" href="experience/lecturer-ite.html"><span class="lang-en">Press me for details &rarr;</span><span class="lang-zh">点击查看详情 &rarr;</span></a>
       </div>
     </div>
 
     <div class="t-item">
       <div class="t-meta">2022 – 2025</div>
       <div class="t-body">
-        <h3>Registered Early Childhood Teacher</h3>
-        <p class="p-meta">KinderCare Learning Centre, Christchurch</p>
-        <p>Applied Te Whāriki-informed practice in a diverse ECE centre setting; built inclusive,
+        <h3><a href="experience/ece-teacher.html"><span class="lang-en">Registered Early Childhood Teacher</span><span class="lang-zh">注册幼儿教师</span></a></h3>
+        <p class="p-meta"><span class="lang-en">KinderCare Learning Centre, Christchurch</span><span class="lang-zh">KinderCare 幼儿学习中心，基督城</span></p>
+        <span class="lang-en lang-block"><p>Applied Te Whāriki-informed practice in a diverse ECE centre setting; built inclusive,
         language-rich environments supporting children's oral language, early literacy, wellbeing and
-        belonging.</p>
+        belonging.</p></span>
+        <span class="lang-zh lang-block"><p>在多元文化的幼儿园环境中践行 Te Whāriki 课程理念；构建包容、语言丰富的学习环境，
+        支持儿童的口语发展、早期读写、身心健康与归属感。</p></span>
+        <a class="btn-details" href="experience/ece-teacher.html"><span class="lang-en">Press me for details &rarr;</span><span class="lang-zh">点击查看详情 &rarr;</span></a>
       </div>
     </div>
 
     <div class="t-item">
       <div class="t-meta">2012 – 2013</div>
       <div class="t-body">
-        <h3>Language Teacher &amp; Teacher Trainer</h3>
-        <p class="p-meta">Southbank University / Confucius Institute, London, United Kingdom</p>
-        <p>Delivered language and literacy teaching in multicultural community education settings and
-        facilitated teacher development workshops.</p>
+        <h3><a href="experience/language-teacher.html"><span class="lang-en">Language Teacher &amp; Teacher Trainer</span><span class="lang-zh">语言教师 &amp; 教师培训师</span></a></h3>
+        <p class="p-meta"><span class="lang-en">Southbank University / Confucius Institute, London, United Kingdom</span><span class="lang-zh">南岸大学 / 孔子学院，英国伦敦</span></p>
+        <span class="lang-en lang-block"><p>Delivered language and literacy teaching in multicultural community education settings and
+        facilitated teacher development workshops.</p></span>
+        <span class="lang-zh lang-block"><p>在多元文化社区教育机构教授语言与读写课程，并主持教师专业发展工作坊。</p></span>
+        <a class="btn-details" href="experience/language-teacher.html"><span class="lang-en">Press me for details &rarr;</span><span class="lang-zh">点击查看详情 &rarr;</span></a>
       </div>
     </div>
 
     <div class="t-item">
       <div class="t-meta">2004 – 2020</div>
       <div class="t-body">
-        <h3>ESOL &amp; High School English Teacher / Literacy Lead</h3>
-        <p class="p-meta">High School Attached to Harbin Normal University, China</p>
-        <p>Taught English, academic literacy and exam preparation to senior secondary learners;
-        designed teaching programmes and resources; mentored colleagues on curriculum development.</p>
+        <h3><a href="experience/esol-teacher.html"><span class="lang-en">ESOL &amp; High School English Teacher / Literacy Lead</span><span class="lang-zh">ESOL 及高中英语教师 / 读写教学负责人</span></a></h3>
+        <p class="p-meta"><span class="lang-en">High School Attached to Harbin Normal University, China</span><span class="lang-zh">哈尔滨师范大学附属中学，中国</span></p>
+        <span class="lang-en lang-block"><p>Taught English, academic literacy and exam preparation to senior secondary learners;
+        designed teaching programmes and resources; mentored colleagues on curriculum development.</p></span>
+        <span class="lang-zh lang-block"><p>为高中学生教授英语、学术读写及考试备考课程；设计教学方案与教学资源；指导同事进行
+        课程开发。</p></span>
+        <a class="btn-details" href="experience/esol-teacher.html"><span class="lang-en">Press me for details &rarr;</span><span class="lang-zh">点击查看详情 &rarr;</span></a>
       </div>
     </div>
   </div>
 </section>
 
 <section id="portfolio" class="container section">
-  <h2><span class="num">03</span> Portfolio</h2>
+  <h2><span class="num">04</span> <span class="lang-en">Portfolio</span><span class="lang-zh">作品集</span></h2>
 
   <div class="portfolio-grid">
 
     <article class="p-card">
-      <span class="p-tag">Research Project</span>
-      <h3>AI + 汉英双语儿童家庭教育案例分享</h3>
-      <p>
-        <!-- 项目卡片文字，先用占位内容，之后可以替换成你自己的案例描述 -->
-        分享新西兰华人家庭如何运用 AI 工具辅助孩子进行中英双语阅读与语言学习的真实案例，记录亲子互动中的方法、
-        挑战与观察心得，为海外双语家庭提供参考。
-      </p>
-      <p class="hint">（占位内容，欢迎发给我真实案例替换）</p>
+      <span class="p-tag"><span class="lang-en">Research Project</span><span class="lang-zh">研究项目</span></span>
+      <h3><span class="lang-en">AI-Assisted Chinese–English Bilingual Family Learning</span><span class="lang-zh">AI 辅助中英双语家庭学习</span></h3>
+      <span class="lang-en lang-block">
+        <p>
+          Case studies of Chinese migrant families in New Zealand using AI tools to support their children's
+          bilingual reading and language learning at home — documenting methods, challenges and observations
+          from real parent–child interactions, as a reference for other overseas bilingual families.
+        </p>
+      </span>
+      <span class="lang-zh lang-block">
+        <p>
+          记录新西兰华人移民家庭如何运用 AI 工具，支持孩子在家进行中英双语阅读与语言学习的真实案例——
+          梳理其中的方法、挑战与观察心得，为海外双语家庭提供参考。
+        </p>
+      </span>
     </article>
 
     <article class="p-card">
-      <span class="p-tag">Thesis</span>
-      <h3>Understanding the Educational Aspirations of Two Preschool Chinese Migrant Parents in One ECE Centre</h3>
-      <p class="p-meta">Master of Teaching Early Childhood Education, Distinction — Toi Ohomai Institute of Technology, 2021</p>
-      <p>
-        A qualitative case study exploring how two Chinese migrant parents in Tauranga understood their
-        preschoolers' learning, and the language, cultural and power-imbalance barriers shaping their
-        engagement with an ECE centre — with implications for culturally responsive home–centre partnership.
-      </p>
-      <a class="hint" href="assets/portfolio/thesis.pdf" target="_blank" rel="noopener">Read the full report (PDF) &rarr;</a>
+      <span class="p-tag"><span class="lang-en">Thesis</span><span class="lang-zh">毕业论文</span></span>
+      <h3><span class="lang-en">Understanding the Educational Aspirations of Two Preschool Chinese Migrant Parents in One ECE Centre</span><span class="lang-zh">关于两位学前华人移民家长教育期望的研究：以一所幼儿教育中心为例</span></h3>
+      <p class="p-meta"><span class="lang-en">Master of Teaching Early Childhood Education, Distinction — Toi Ohomai Institute of Technology, 2021</span><span class="lang-zh">幼儿教育硕士（优异）— Toi Ohomai 理工学院，2021年</span></p>
+      <span class="lang-en lang-block">
+        <p>
+          A qualitative case study exploring how two Chinese migrant parents in Tauranga understood their
+          preschoolers' learning, and the language, cultural and power-imbalance barriers shaping their
+          engagement with an ECE centre — with implications for culturally responsive home–centre partnership.
+        </p>
+      </span>
+      <span class="lang-zh lang-block">
+        <p>
+          一项质性案例研究，探讨陶朗加两位华人移民家长如何理解学龄前子女的学习，以及语言、文化与权力
+          不对等因素如何影响他们与幼儿园的互动——为建立具文化回应性的家园合作关系提供启示。
+        </p>
+      </span>
+      <a class="hint" href="assets/portfolio/thesis.pdf" target="_blank" rel="noopener"><span class="lang-en">Read the full report (PDF) &rarr;</span><span class="lang-zh">阅读完整报告（PDF）&rarr;</span></a>
     </article>
 
     <article class="p-card">
-      <span class="p-tag">Award</span>
-      <h3>First Prize, National English Teaching Competition, China</h3>
-      <p class="p-meta">Plus 30+ regional and national awards for teaching practice and educational research</p>
+      <span class="p-tag"><span class="lang-en">Award</span><span class="lang-zh">获奖</span></span>
+      <h3><span class="lang-en">First Prize, National English Teaching Competition, China</span><span class="lang-zh">中国全国英语教学大赛一等奖</span></h3>
+      <p class="p-meta"><span class="lang-en">Plus 30+ regional and national awards for teaching practice and educational research</span><span class="lang-zh">另获 30 余项省级及全国性教学实践与教育研究奖项</span></p>
     </article>
 
     <article class="p-card">
-      <span class="p-tag">Publications</span>
-      <h3>Co-authored English Teaching &amp; Learning Resource Books</h3>
-      <p class="p-meta">Approximately 15 books, China</p>
+      <span class="p-tag"><span class="lang-en">Publications</span><span class="lang-zh">出版物</span></span>
+      <h3><span class="lang-en">Co-authored English Teaching &amp; Learning Resource Books</span><span class="lang-zh">合著英语教学资源丛书</span></h3>
+      <p class="p-meta"><span class="lang-en">Approximately 15 books, China</span><span class="lang-zh">约 15 册，中国</span></p>
     </article>
 
   </div>
 </section>
 
 <section id="cv" class="container section">
-  <h2><span class="num">04</span> CV</h2>
+  <h2><span class="num">05</span> <span class="lang-en">CV</span><span class="lang-zh">简历</span></h2>
 
   <div class="cv-block">
-    <h3>Professional Registration</h3>
-    <p>Current Full Practising Certificate, Teaching Council of Aotearoa New Zealand — Registration No. 412284</p>
+    <h3><span class="lang-en">Professional Registration</span><span class="lang-zh">职业注册</span></h3>
+    <p><span class="lang-en">Current Full Practising Certificate, Teaching Council of Aotearoa New Zealand — Registration No. 412284</span><span class="lang-zh">现行执业证书，新西兰教师注册委员会 — 注册号 412284</span></p>
   </div>
 
   <div class="cv-block">
-    <h3>Education</h3>
+    <h3><span class="lang-en">Education</span><span class="lang-zh">教育背景</span></h3>
     <ul class="cv-list">
-      <li><strong>Part-time PhD Candidate in Education</strong> — University of Canterbury, New Zealand (Ongoing)<br>
-      <span class="p-meta">Research focus: digitally mediated bilingual literacy practices in Chinese–New Zealand family homes, including language, identity, family interaction, multimodal resources and digital tools.</span></li>
-      <li><strong>Master of Teaching Early Childhood Education, Distinction</strong> — Toi Ohomai Institute of Technology, New Zealand (2021)<br>
-      <span class="p-meta">Research: <em>Understanding the Educational Aspirations of Two Preschool Chinese Migrant Parents in One ECE Centre</em> — a qualitative case study on home–centre partnership with Chinese migrant families in Aotearoa New Zealand.</span></li>
-      <li><strong>Bachelor of English Education</strong> — Harbin Normal University, China (2004)</li>
+      <li>
+        <span class="lang-en lang-block"><strong>Part-time PhD Candidate in Education</strong> — University of Canterbury, New Zealand (Ongoing)<br>
+        <span class="p-meta">Research focus: digitally mediated bilingual literacy practices in Chinese–New Zealand family homes, including language, identity, family interaction, multimodal resources and digital tools.</span></span>
+        <span class="lang-zh lang-block"><strong>教育学博士在读（兼读制）</strong> — 新西兰坎特伯雷大学（在读）<br>
+        <span class="p-meta">研究方向：中新家庭中数字媒介支持下的双语读写实践，涉及语言、身份认同、家庭互动、多模态资源与数字工具。</span></span>
+      </li>
+      <li>
+        <span class="lang-en lang-block"><strong>Master of Teaching Early Childhood Education, Distinction</strong> — Toi Ohomai Institute of Technology, New Zealand (2021)<br>
+        <span class="p-meta">Research: <em>Understanding the Educational Aspirations of Two Preschool Chinese Migrant Parents in One ECE Centre</em> — a qualitative case study on home–centre partnership with Chinese migrant families in Aotearoa New Zealand.</span></span>
+        <span class="lang-zh lang-block"><strong>幼儿教育硕士（优异）</strong> — 新西兰 Toi Ohomai 理工学院（2021年）<br>
+        <span class="p-meta">研究方向：<em>《关于两位学前华人移民家长教育期望的研究：以一所幼儿教育中心为例》</em>——一项关于新西兰华人移民家庭家园合作关系的质性案例研究。</span></span>
+      </li>
+      <li><span class="lang-en"><strong>Bachelor of English Education</strong> — Harbin Normal University, China (2004)</span><span class="lang-zh"><strong>英语教育学士学位</strong> — 哈尔滨师范大学，中国（2004年）</span></li>
     </ul>
   </div>
 
   <div class="cv-block">
-    <h3>Core Capabilities</h3>
+    <h3><span class="lang-en">Core Capabilities</span><span class="lang-zh">核心能力</span></h3>
     <ul class="cv-list cv-list-grid">
-      <li>Online and flexible tertiary teaching</li>
-      <li>Initial Teacher Education course delivery</li>
-      <li>ECE centre-based practice evaluation</li>
-      <li>Observation of interactions with children and Associate Teachers</li>
-      <li>Te Whāriki-informed early childhood practice</li>
-      <li>Te Tiriti-informed and culturally responsive teaching</li>
-      <li>Academic guidance for adult and distance learners</li>
-      <li>Assessment marking and criteria-based judgement</li>
-      <li>Supporting multilingual and diverse adult learners</li>
-      <li>Research-informed teaching and reflective practice</li>
-      <li>Digital platforms: Moodle, Zoom, Teams, Microsoft 365</li>
-      <li>English–Mandarin cross-cultural communication</li>
+      <li><span class="lang-en">Online and flexible tertiary teaching</span><span class="lang-zh">线上及弹性高等教育教学</span></li>
+      <li><span class="lang-en">Initial Teacher Education course delivery</span><span class="lang-zh">教师教育课程讲授</span></li>
+      <li><span class="lang-en">ECE centre-based practice evaluation</span><span class="lang-zh">幼儿园一线实践评估</span></li>
+      <li><span class="lang-en">Observation of interactions with children and Associate Teachers</span><span class="lang-zh">对儿童及指导教师互动的观察评估</span></li>
+      <li><span class="lang-en">Te Whāriki-informed early childhood practice</span><span class="lang-zh">基于 Te Whāriki 课程理念的幼儿教育实践</span></li>
+      <li><span class="lang-en">Te Tiriti-informed and culturally responsive teaching</span><span class="lang-zh">基于 Te Tiriti 精神的文化回应性教学</span></li>
+      <li><span class="lang-en">Academic guidance for adult and distance learners</span><span class="lang-zh">成人及远程学习者学术指导</span></li>
+      <li><span class="lang-en">Assessment marking and criteria-based judgement</span><span class="lang-zh">评估阅卷与标准化评判</span></li>
+      <li><span class="lang-en">Supporting multilingual and diverse adult learners</span><span class="lang-zh">支持多语言、多元背景成人学习者</span></li>
+      <li><span class="lang-en">Research-informed teaching and reflective practice</span><span class="lang-zh">基于研究的教学与反思性实践</span></li>
+      <li><span class="lang-en">Digital platforms: Moodle, Zoom, Teams, Microsoft 365</span><span class="lang-zh">数字平台：Moodle、Zoom、Teams、Microsoft 365</span></li>
+      <li><span class="lang-en">English–Mandarin cross-cultural communication</span><span class="lang-zh">英语—普通话跨文化沟通</span></li>
     </ul>
   </div>
 
-  <a class="btn btn-primary" href="assets/cv/CV.pdf" target="_blank" rel="noopener">Download Full CV (PDF)</a>
-  <p class="hint">（这个按钮暂时是占位链接。把一份通用版 PDF 简历放进 assets/cv/CV.pdf，按钮就能直接打开下载。）</p>
+  <a class="btn btn-primary" href="assets/cv/CV.pdf" target="_blank" rel="noopener"><span class="lang-en">Download Full CV (PDF)</span><span class="lang-zh">下载完整简历（PDF）</span></a>
+</section>
+
+<section id="hobbies" class="container section">
+  <h2><span class="num">06</span> <span class="lang-en">Hobbies &amp; Interests</span><span class="lang-zh">爱好</span></h2>
+
+  <div class="portfolio-grid">
+    <article class="p-card">
+      <span class="p-tag"><span class="lang-en">Yoga</span><span class="lang-zh">瑜伽</span></span>
+      <h3><span class="lang-en">Yoga</span><span class="lang-zh">瑜伽</span></h3>
+      <span class="lang-en lang-block"><p>A regular part of my week, supporting physical wellbeing and balance alongside a busy teaching and research schedule.</p></span>
+      <span class="lang-zh lang-block"><p>瑜伽是我每周生活的固定部分，在繁忙的教学与科研之余，帮助我保持身心健康与平衡。</p></span>
+    </article>
+
+    <article class="p-card">
+      <span class="p-tag"><span class="lang-en">Meditation</span><span class="lang-zh">冥想</span></span>
+      <h3><span class="lang-en">Meditation</span><span class="lang-zh">冥想</span></h3>
+      <span class="lang-en lang-block"><p>A daily mindfulness practice that supports focus, calm and reflective thinking — habits I also bring into my teaching.</p></span>
+      <span class="lang-zh lang-block"><p>每日的正念练习，帮助我保持专注、平静与反思性思维——这些习惯也延伸到了我的教学中。</p></span>
+    </article>
+
+    <article class="p-card">
+      <span class="p-tag"><span class="lang-en">Travel</span><span class="lang-zh">旅行</span></span>
+      <h3><span class="lang-en">Travel</span><span class="lang-zh">旅行</span></h3>
+      <span class="lang-en lang-block"><p>Visited over 10 countries and 50 cities across Asia and Europe — see the map and country breakdown.</p></span>
+      <span class="lang-zh lang-block"><p>足迹遍及亚洲与欧洲的十余个国家、五十余座城市——查看地图与各国详情。</p></span>
+      <a class="btn-details" href="hobbies/travel.html"><span class="lang-en">Press me for details &rarr;</span><span class="lang-zh">点击查看详情 &rarr;</span></a>
+    </article>
+
+    <article class="p-card">
+      <span class="p-tag"><span class="lang-en">Food</span><span class="lang-zh">美食</span></span>
+      <h3><span class="lang-en">Food</span><span class="lang-zh">美食</span></h3>
+      <span class="lang-en lang-block"><p>I enjoy cooking and exploring New Zealand's food scene — videos and photos of this are also shared on my Xiaohongshu.</p></span>
+      <span class="lang-zh lang-block"><p>我喜欢烹饪，也乐于探索新西兰的美食——相关视频和照片也分享在我的小红书上。</p></span>
+      <a class="btn-details" href="https://www.xiaohongshu.com/user/profile/59abd49750c4b42442dbe05d" target="_blank" rel="noopener"><span class="lang-en">View on Xiaohongshu &rarr;</span><span class="lang-zh">前往小红书查看 &rarr;</span></a>
+    </article>
+  </div>
+</section>
+
+<section id="community" class="container section">
+  <h2><span class="num">07</span> <span class="lang-en">Community Contribution</span><span class="lang-zh">社区贡献</span></h2>
+
+  <div class="portfolio-grid">
+    <article class="p-card">
+      <span class="p-tag">Xiaohongshu (小红书)</span>
+      <h3><span class="lang-en">Sharing Life in Aotearoa New Zealand</span><span class="lang-zh">分享我在新西兰的生活</span></h3>
+      <span class="lang-en lang-block">
+        <p>
+          I create content on Xiaohongshu (小红书) for the Chinese community, sharing everyday life and
+          education in New Zealand — including family life, university lecturer life, high school to
+          university transition, New Zealand food &amp; scenery, and primary school &amp; home learning.
+        </p>
+      </span>
+      <span class="lang-zh lang-block">
+        <p>
+          我在小红书上为华人社区创作内容，分享在新西兰的日常生活与教育点滴——包括家庭生活、大学讲师
+          生活、高中衔接大学、新西兰美食与风景，以及小学与家庭学习。
+        </p>
+      </span>
+      <a class="btn-details" href="https://www.xiaohongshu.com/user/profile/59abd49750c4b42442dbe05d" target="_blank" rel="noopener"><span class="lang-en">Visit my Xiaohongshu &rarr;</span><span class="lang-zh">前往我的小红书 &rarr;</span></a>
+    </article>
+  </div>
 </section>
 
 <footer id="contact" class="container section">
-  <h2><span class="num">05</span> Contact</h2>
-  <p>Email: <a href="mailto:guanyinglsy@gmail.com">guanyinglsy@gmail.com</a></p>
-  <p class="footer-note">&copy; <span id="year"></span> Ying Guan. Built with GitHub Pages.</p>
+  <h2><span class="num">08</span> <span class="lang-en">Contact</span><span class="lang-zh">联系方式</span></h2>
+  <p><span class="lang-en">Email:</span><span class="lang-zh">邮箱：</span> <a href="mailto:guanyinglsy@gmail.com">guanyinglsy@gmail.com</a></p>
+  <p><span class="lang-en">LinkedIn:</span><span class="lang-zh">领英：</span> <a href="https://www.linkedin.com/in/ying-guan-0b12401ab/" target="_blank" rel="noopener">linkedin.com/in/ying-guan-0b12401ab</a></p>
+  <p class="footer-note">&copy; <span id="year"></span> Ying Guan 关莹. <span class="lang-en">Built with GitHub Pages.</span><span class="lang-zh">使用 GitHub Pages 搭建。</span></p>
 </footer>
 
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
+
+  const navToggle = document.getElementById('navToggle');
+  const siteNav = document.getElementById('siteNav');
+  navToggle.addEventListener('click', () => {
+    const isOpen = siteNav.classList.toggle('is-open');
+    navToggle.setAttribute('aria-expanded', String(isOpen));
+  });
+  siteNav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      siteNav.classList.remove('is-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
 
   const navLinks = document.querySelectorAll('nav a');
   const sections = Array.from(navLinks).map(link => document.querySelector(link.getAttribute('href')));
@@ -224,6 +426,17 @@
   };
   document.addEventListener('scroll', setActive, { passive: true });
   setActive();
+
+  const langToggle = document.getElementById('langToggle');
+  const setLang = (zh) => {
+    document.body.classList.toggle('zh-mode', zh);
+    langToggle.textContent = zh ? 'EN' : '中文';
+    localStorage.setItem('lang', zh ? 'zh' : 'en');
+  };
+  langToggle.addEventListener('click', () => {
+    setLang(!document.body.classList.contains('zh-mode'));
+  });
+  setLang(localStorage.getItem('lang') === 'zh');
 </script>
 
 </body>

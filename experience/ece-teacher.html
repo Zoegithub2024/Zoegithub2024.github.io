@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registered Early Childhood Teacher | Ying Guan</title>
+<meta name="description" content="Ying Guan — Registered Early Childhood Teacher, KinderCare Learning Centre, Christchurch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <span class="site-title"><span class="site-logo">YG</span>YING GUAN <span class="site-title-cn">关莹</span></span>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="siteNav">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#philosophy">Philosophy</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#portfolio">Portfolio</a>
+      <a href="../index.html#cv">CV</a>
+      <a href="../index.html#hobbies">Hobbies</a>
+      <a href="../index.html#community">Community</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="container detail-hero">
+  <a class="breadcrumb" href="../index.html#experience">&larr; Back to Experience</a>
+  <h1>Registered Early Childhood Teacher</h1>
+  <p class="detail-meta">KinderCare Learning Centre, Christchurch &nbsp;·&nbsp; 2022 – 2025</p>
+</section>
+
+<section class="container section">
+  <h2><span class="num">01</span> Overview</h2>
+  <p>
+    Applied Te Whāriki-informed practice in a diverse ECE centre setting; built inclusive, language-rich
+    environments supporting children's oral language, early literacy, wellbeing and belonging.
+  </p>
+
+  <h3 style="margin-top:36px;">Highlights</h3>
+  <ul class="achievements-list">
+    <li>Delivered Te Whāriki-informed curriculum in a culturally diverse early childhood centre.</li>
+    <li>Built inclusive, language-rich learning environments supporting oral language and early literacy.</li>
+    <li>Supported children's wellbeing and sense of belonging through relationship-based practice.</li>
+    <li class="hint">（占位内容，欢迎发给我具体活动照片、家长反馈或教学案例替换）</li>
+  </ul>
+</section>
+
+<section class="container section">
+  <h2><span class="num">02</span> Photos &amp; Evidence</h2>
+  <div class="gallery-grid">
+    <div class="gallery-placeholder">
+      <span>把这段经历相关的图片放进</span>
+      <code>assets/experience/ece-teacher/</code>
+      <span>文件夹，我来帮你加到这里</span>
+    </div>
+    <div class="gallery-placeholder">可以是：环创照片、活动记录、家长感谢信等</div>
+    <div class="gallery-placeholder">占位图片位</div>
+  </div>
+</section>
+
+<footer class="container section">
+  <p class="footer-note">&copy; <span id="year"></span> Ying Guan. Built with GitHub Pages.</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const navToggle = document.getElementById('navToggle');
+  const siteNav = document.getElementById('siteNav');
+  navToggle.addEventListener('click', () => {
+    const isOpen = siteNav.classList.toggle('is-open');
+    navToggle.setAttribute('aria-expanded', String(isOpen));
+  });
+  siteNav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      siteNav.classList.remove('is-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ESOL & High School English Teacher / Literacy Lead | Ying Guan</title>
+<meta name="description" content="Ying Guan — ESOL and High School English Teacher, Literacy Lead, High School Attached to Harbin Normal University, China.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <span class="site-title"><span class="site-logo">YG</span>YING GUAN <span class="site-title-cn">关莹</span></span>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="siteNav">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#philosophy">Philosophy</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#portfolio">Portfolio</a>
+      <a href="../index.html#cv">CV</a>
+      <a href="../index.html#hobbies">Hobbies</a>
+      <a href="../index.html#community">Community</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="container detail-hero">
+  <a class="breadcrumb" href="../index.html#experience">&larr; Back to Experience</a>
+  <h1>ESOL &amp; High School English Teacher / Literacy Lead</h1>
+  <p class="detail-meta">High School Attached to Harbin Normal University, China &nbsp;·&nbsp; 2004 – 2020</p>
+</section>
+
+<section class="container section">
+  <h2><span class="num">01</span> Overview</h2>
+  <p>
+    Taught English, academic literacy and exam preparation to senior secondary learners; designed
+    teaching programmes and resources; mentored colleagues on curriculum development.
+  </p>
+
+  <h3 style="margin-top:36px;">Highlights</h3>
+  <ul class="achievements-list">
+    <li>Sixteen years teaching English, academic literacy and exam preparation to senior secondary students.</li>
+    <li>Designed teaching programmes and resources, later co-authored into approximately 15 published resource books.</li>
+    <li>Mentored colleagues on curriculum development; first prize, National English Teaching Competition, China.</li>
+    <li class="hint">（占位内容，欢迎发给我具体获奖证书、课程材料或学生成果照片替换）</li>
+  </ul>
+</section>
+
+<section class="container section">
+  <h2><span class="num">02</span> Photos &amp; Evidence</h2>
+  <div class="gallery-grid">
+    <div class="gallery-placeholder">
+      <span>把这段经历相关的图片放进</span>
+      <code>assets/experience/esol-teacher/</code>
+      <span>文件夹，我来帮你加到这里</span>
+    </div>
+    <div class="gallery-placeholder">可以是：获奖证书、课堂照片、出版书籍封面等</div>
+    <div class="gallery-placeholder">占位图片位</div>
+  </div>
+</section>
+
+<footer class="container section">
+  <p class="footer-note">&copy; <span id="year"></span> Ying Guan. Built with GitHub Pages.</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const navToggle = document.getElementById('navToggle');
+  const siteNav = document.getElementById('siteNav');
+  navToggle.addEventListener('click', () => {
+    const isOpen = siteNav.classList.toggle('is-open');
+    navToggle.setAttribute('aria-expanded', String(isOpen));
+  });
+  siteNav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      siteNav.classList.remove('is-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+
+</body>
+</html>

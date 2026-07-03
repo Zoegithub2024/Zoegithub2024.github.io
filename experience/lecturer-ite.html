@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lecturer & Visiting Lecturer — Initial Teacher Education | Ying Guan</title>
+<meta name="description" content="Ying Guan — Lecturer and Visiting Lecturer, Initial Teacher Education, New Zealand Tertiary College.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <span class="site-title"><span class="site-logo">YG</span>YING GUAN <span class="site-title-cn">关莹</span></span>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="siteNav">
+      <a href="../index.html#home">Home</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#philosophy">Philosophy</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#portfolio">Portfolio</a>
+      <a href="../index.html#cv">CV</a>
+      <a href="../index.html#hobbies">Hobbies</a>
+      <a href="../index.html#community">Community</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="container detail-hero">
+  <a class="breadcrumb" href="../index.html#experience">&larr; Back to Experience</a>
+  <h1>Lecturer &amp; Visiting Lecturer — Initial Teacher Education</h1>
+  <p class="detail-meta">New Zealand Tertiary College, Auckland &nbsp;·&nbsp; 2025 – 2026</p>
+</section>
+
+<section class="container section">
+  <h2><span class="num">01</span> Overview</h2>
+  <p>
+    Taught across five Initial Teacher Education courses (undergraduate and postgraduate), supporting
+    adult and distance learners through course delivery, assessment feedback, one-to-one academic
+    support, and practicum-related teaching practice guidance.
+  </p>
+
+  <h3 style="margin-top:36px;">Highlights</h3>
+  <ul class="achievements-list">
+    <li>Delivered five Initial Teacher Education courses spanning undergraduate and postgraduate levels.</li>
+    <li>Supported adult and distance learners with one-to-one academic guidance alongside course delivery.</li>
+    <li>Guided practicum-related teaching practice, connecting theory to placement experience.</li>
+    <li class="hint">（占位内容，欢迎发给我具体课程名称、学生反馈或教学案例替换）</li>
+  </ul>
+</section>
+
+<section class="container section">
+  <h2><span class="num">02</span> Photos &amp; Evidence</h2>
+  <div class="gallery-grid">
+    <div class="gallery-placeholder">
+      <span>把这段经历相关的图片放进</span>
+      <code>assets/experience/lecturer-ite/</code>
+      <span>文件夹，我来帮你加到这里</span>
+    </div>
+    <div class="gallery-placeholder">可以是：课堂照片、课程材料、学生评价、教学证书等</div>
+    <div class="gallery-placeholder">占位图片位</div>
+  </div>
+</section>
+
+<footer class="container section">
+  <p class="footer-note">&copy; <span id="year"></span> Ying Guan. Built with GitHub Pages.</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const navToggle = document.getElementById('navToggle');
+  const siteNav = document.getElementById('siteNav');
+  navToggle.addEventListener('click', () => {
+    const isOpen = siteNav.classList.toggle('is-open');
+    navToggle.setAttribute('aria-expanded', String(isOpen));
+  });
+  siteNav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      siteNav.classList.remove('is-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+
+</body>
+</html>

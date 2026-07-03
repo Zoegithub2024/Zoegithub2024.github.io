@@ -1,0 +1,12 @@
+# Raw / unprocessed travel photo archives — not meant to be committed.
+# Only assets/travel/selected/ (curated, resized photos) is actually used by the site.
+assets/travel/China/
+assets/travel/United Kingdom/
+assets/travel/South Korea/
+assets/travel/Thailand 2016/
+assets/travel/柬埔寨2015/
+assets/travel/Images/
+assets/travel/japan/
+
+# Raw teaching-career photo/document archive — not yet curated for the site.
+assets/Teaching Journey/
