@@ -132,7 +132,7 @@ a {
   margin: 0 0 18px;
 }
 
-/* Language toggle (index.html only) */
+/* Language toggle */
 
 .lang-zh {
   display: none;
@@ -895,3 +895,5 @@ footer a {
   background: transparent;
   border-style: dashed;
 }
+
+.p-card[id] { scroll-margin-top: 130px; }
